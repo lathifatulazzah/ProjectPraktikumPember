@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Project Praktikum Pember</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Harga">harga</string>
+    <string name="Harga1">Rp.5.000/kg</string>
+    <string name="Harga2">Rp.5.000/kg</string>
+    <string name="Harga3">Rp.15.000/pasang</string>
+    <string name="Harga4">Rp.5.000/kg</string>
+    <string name="Harga5">Rp.5.000/kg</string>
+    <string name="Harga6">Rp.5.000/kg</string>
+    <string name="Nama">nama</string>
+    <string name="nama1">Cuci Setrika</string>
+    <string name="nama2">Cuci Kering</string>
+    <string name="nama3">Cuci Sepatu</string>
+    <string name="nama4">Cuci Boneka</string>
+    <string name="nama5">Cuci Selimut</string>
+    <string name="nama6">Cuci Gorden</string>
+    <string name="awal">Selamat Datang di Aplikasi Laundry</string>
+    <string name="deskripsi">"Dengan aplikasi kami, segala cuci pakaian maupun selimut Anda dengan gaya dan keanggunan yang tak tertandingi. Hadirkan kelembutan dan kesegaran pada setiap serat kain, menjadikan pakaian Anda berkilau dan terasa seperti baru. Pengalaman laundry terbaik menanti Anda di dalam genggaman tangan. </string>
+    <string-array name="items_option">
+        <item>Ubah</item>
+        <item>Hapus</item>
+        <item>Kembali</item>
+    </string-array>
+</resources>

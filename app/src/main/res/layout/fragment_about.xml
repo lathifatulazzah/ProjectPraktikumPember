@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutFragment">
+
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="258dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/logo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/awal"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/foto"
+        app:layout_constraintStart_toStartOf="@+id/foto"
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
+
+    <TextView
+        android:id="@+id/deskripsi2"
+        android:layout_width="363dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="38dp"
+        android:autoSizeTextType="none"
+        android:justificationMode="inter_word"
+        android:text="@string/deskripsi"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/deskripsi"
+        app:layout_constraintStart_toStartOf="@+id/deskripsi"
+        app:layout_constraintTop_toBottomOf="@+id/deskripsi" />
+
+    <Button
+        android:id="@+id/wa"
+        android:layout_width="161dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="38dp"
+        android:text="Share Whatsapp"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/deskripsi2"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/deskripsi2"
+        app:layout_constraintTop_toBottomOf="@+id/deskripsi2"
+        app:layout_constraintVertical_bias="0.041" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
